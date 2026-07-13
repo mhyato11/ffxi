@@ -54,12 +54,12 @@ Edit `data/settings.lua` with your proc weapons, kill weapon, and per-character 
 ## Per-Character Examples
 ```lua
 kill_per_character = {
-    Deemo = {kill_weapon = "Chango", kill_sub = "Utu Grip", kill_ws = "Upheaval"},
-    Kiakoda = {kill_weapon = false},  -- proc only, no kill mode
+    example2 = {kill_weapon = "Chango", kill_sub = "Utu Grip", kill_ws = "Upheaval"},
+    example3 = {kill_weapon = false},  -- proc only, no kill mode
 },
 
 weapons_per_character = {
-    Pferi = {
+    example1 = {
         ["Sword"] = {main = "Twinned Blade", sub = "Ammurapi Shield"},
         ["Club"]  = {main = "Chac-chacs", sub = "Ammurapi Shield"},
     },
